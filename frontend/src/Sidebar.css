@@ -1,0 +1,39 @@
+.sidebar{
+    flex:0.15;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 1.4rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.4rem 3rem rgba(211, 209, 209, 0.315);
+    border-right: 1px solid #e4f7f691;
+}
+
+.sidebar div{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    border-radius: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.container div{
+    margin-top: 0.2rem;
+    padding: 2rem;
+    width: 80%;
+    cursor: pointer;
+    display: flex;
+}
+
+.container div:hover{
+    font-size: larger;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(226, 226, 226, 0.822) ;
+}
+

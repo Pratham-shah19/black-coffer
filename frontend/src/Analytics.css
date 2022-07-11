@@ -1,0 +1,43 @@
+.analytics{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding:1.5rem;
+    overflow: scroll;
+}
+.header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    flex: 0.1;
+}
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+.data-row-1,.data-row-2,.data-row-3,.data-row-4{
+    font-size: large;
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    justify-content: space-evenly;
+    height: 60vh;
+    background-image: rgba(255, 255, 255, 0.548);
+    box-shadow: 0  1rem 2rem 0 rgba(206, 205, 205, 0.733);
+    border-radius: 30px;
+}
+.data-row-1 ,.data-row-4:first-child{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.data-row-2 div , .data-row-3 div,.data-row-4 div{
+    width: 50%;
+}
+
+
+
